@@ -9,18 +9,24 @@
   <body onload="onLoad()">
     <div id="container">
       <div class="block-1">
-        <div id="temperature"></div>
-        <div id="description"></div>
-        <div id="location"></div>
+        <div id="temperature" class="temperature"></div>
+        <div id="description" class="description"></div>
+        <div id="location" class="location"></div>
       </div>
 
       <div class="block-2">
-        <div id="humidity"></div>
-        <div id="pressure"></div>
+        <div class="container-especification">
+            Humedad:
+            <div id="humidity"></div>
+        </div>
+        <div class="container-especification">
+            Presion atmosferica:
+            <div id="pressure"></div>
+        </div>
         <div id="date"></div>
       </div>
     </div>
-
+    <div class="loader" id="loader">Loading...</div>
     <script src="script.js"></script>
   </body>
 </html>
