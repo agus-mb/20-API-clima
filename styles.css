@@ -1,65 +1,62 @@
-body{
-    background-color:#02182B ;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: monospace;
-color:#02182B;
-margin: 0px;
-padding: 0px;
+body {
+  background-color: #02182b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  color: #02182b;
+  margin: 0px;
+  padding: 0px;
 }
 
-#container{
-    background-color:#B5D2CB ;
-    height: 200px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+#container {
+  background-color: #b5d2cb;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 
-    display:none;
+  display: none;
 }
 
-.block-1{
-    padding:20px;
-    display: flex;
-    flex-direction: column;
-justify-content: center;
-background: linear-gradient(to right, #448FA3, transparent);
+.block-1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, #448fa3, transparent);
 }
 
-.block-2{
-    padding:20px;
-    display: flex;
-    flex-direction: column;
-justify-content: center;
+.block-2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.temperature{
-    font-size: 55px;
-    font-weight: 900;
+.temperature {
+  font-size: 55px;
+  font-weight: 900;
 }
 
-.description{
-    font-size:30px ;
-    font-weight: 550;
+.description {
+  font-size: 30px;
+  font-weight: 550;
 }
 
-.location{
-    font-size: 25px;
+.location {
+  font-size: 25px;
 }
 
-.container-especification{
-    font-size: 20px;
-
+.container-especification {
+  font-size: 20px;
 }
 
-#date{
-font-size: 18px;
-font-weight: 900;
-
+#date {
+  font-size: 18px;
+  font-weight: 900;
 }
-
 
 /*************************************************/
 .loader,
@@ -67,16 +64,16 @@ font-weight: 900;
 .loader:after {
   border-radius: 50%;
   width: 2em;
-  height:2em;
+  height: 2em;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation: load7 1.8s infinite ease-in-out;
   animation: load7 1.8s infinite ease-in-out;
 }
 .loader {
-  color: #B5D2CB;
+  color: #b5d2cb;
   font-size: 10px;
-  margin:  auto;
+  margin: auto;
   position: relative;
   text-indent: -9999em;
   -webkit-transform: translateZ(0);
@@ -87,7 +84,7 @@ font-weight: 900;
 }
 .loader:before,
 .loader:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
 }
@@ -119,7 +116,3 @@ font-weight: 900;
     box-shadow: 0 2.5em 0 0;
   }
 }
-
-
-
-
